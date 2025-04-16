@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>me.jadyyang.low_power_checker</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/jadyyang/code/jadyyang/tools/mac/power/low_power_checker/low_power_checker.sh</string>
+    </array>
+    <!-- 每300秒执行一次 -->
+    <key>StartInterval</key>
+    <integer>300</integer>
+    <!-- 启动时立即运行 -->
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
