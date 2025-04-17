@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 配置参数
-THRESHOLD=75                # 电量阈值
+THRESHOLD=78                # 电量阈值
 COOLDOWN_SECONDS=7200      # 冷却时间（2小时=7200秒）
 COOLDOWN_FILE="/tmp/me_jadyyang_stop_charge_checker_battery_charge_cooldown"  # 冷却状态记录文件
 
