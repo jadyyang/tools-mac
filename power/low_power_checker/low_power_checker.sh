@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOW_BATTERY_THRESHOLD=30
+LOW_BATTERY_THRESHOLD=26
 PREVIOUS_PERCENTAGE_FILE="/tmp/me_jadyyang_low_power_checker_previous_battery_percentage"  # 临时文件记录前一次电量
 
 # 读取前一次电量（文件不存在时默认为空）
